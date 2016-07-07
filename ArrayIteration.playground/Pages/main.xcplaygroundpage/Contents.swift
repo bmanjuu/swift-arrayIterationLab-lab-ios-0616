@@ -29,6 +29,7 @@ shoppingCart.append("Red wine")
  ### 2. You need to create a list that contains the numbers from 1 to 10. How would you represent this list in code? Explicitly mark the content of the cart as numbers.
  */
 // write your code here
+
 var numbersList: [Int] = []
 
 for i in 1...10 {
@@ -37,9 +38,7 @@ for i in 1...10 {
     
 }
 
-
-
-
+//ALTERNATIVE : var numbersList: [Int] = [1,2,3,4,5,6,7,8,9,10]
 
 
 
@@ -49,7 +48,12 @@ for i in 1...10 {
  */
 // write your code here
 
-print(numbersList)
+for number in numbersList {
+    print(number)
+}
+
+
+// ALTERNATIVE: print(numbersList)
 
 
 
